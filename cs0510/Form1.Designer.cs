@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            mybutton = new Button();
             SuspendLayout();
             // 
-            // button1
+            // mybutton
             // 
-            button1.BackColor = Color.Aqua;
-            button1.Font = new Font("Yu Gothic UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.DarkSlateBlue;
-            button1.Location = new Point(460, 121);
-            button1.Name = "button1";
-            button1.Size = new Size(328, 176);
-            button1.TabIndex = 0;
-            button1.Text = "押すな";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            mybutton.BackColor = Color.Aqua;
+            mybutton.Font = new Font("Yu Gothic UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            mybutton.ForeColor = Color.DarkSlateBlue;
+            mybutton.Location = new Point(460, 121);
+            mybutton.Name = "mybutton";
+            mybutton.Size = new Size(328, 176);
+            mybutton.TabIndex = 0;
+            mybutton.Text = "押すな";
+            mybutton.UseVisualStyleBackColor = false;
+            mybutton.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(mybutton);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -57,6 +57,6 @@
 
         #endregion
 
-        private Button button1;
+        private Button mybutton;
     }
 }
